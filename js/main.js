@@ -134,7 +134,7 @@ $(function() {
       icon: 'img/true.png',
     }, {
       name: '开发日志',
-      link: 'https://github.com/BaoChn/NAV',
+      link: 'https://git.io/JM3XL',
       box_shadow: '#F18033',
       icon: 'img/log.png',
     }]
