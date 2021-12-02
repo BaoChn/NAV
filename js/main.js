@@ -143,14 +143,14 @@ $(function() {
       icon: 'img/via.png',
     }, {
       name: '政务平台',
-      link: 'http://gjzwfw.www.gov.cn',
+      link: 'http://gjzwfw.www.gov.cn/',
       box_shadow: '#dbcb52',
       icon: 'img/log.png',
     }, {
-      name: '公网安备',
-      link: 'https://www.beian.gov.cn/apply/selectBeiAn?id=913955',
+      name: '私有云盘',
+      link: 'https://ww.a-b.cc/',
       box_shadow: '#dbcb52',
-      icon: 'img/BOSS.png',
+      icon: 'img/Onedrive.png',
     }]
   }
   for (var i = 0; i < bookmark.data.length; i++) {
