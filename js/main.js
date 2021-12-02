@@ -58,7 +58,7 @@ $(function() {
   var bookmark = {
     data: [{
       name: '素材宝库',
-      link: 'http://one.jift.edu.cn/home',
+      link: 'https://w.a-b.cc/',
       box_shadow: '#0071bc',
       icon: 'img/？.webp',
     }, {
@@ -73,7 +73,7 @@ $(function() {
       icon: 'img/douban.png',
     }, {
       name: '酷安',
-      link: 'https://www.coolapk.com',
+      link: 'https://www.coolapk.com/',
       box_shadow: '#11B063',
       icon: 'img/coolapk.png',
     }, {
@@ -81,6 +81,11 @@ $(function() {
       link: 'https://tophub.today/',
       box_shadow: '#F2584A',
       icon: 'img/headline.png',
+    }, {
+      name: '虎扑',
+      link: 'https://www.hupu.com/',
+      box_shadow: '#c01d2f',
+      icon: 'img/HuPu.png',
     }, {
       name: 'it之家',
       link: 'https://www.ithome.com/',
@@ -92,20 +97,35 @@ $(function() {
       box_shadow: '#D7191A',
       icon: 'img/sspai.png',
     }, {
+      name: '数字尾巴',
+      link: 'https://www.dgtle.com/',
+      box_shadow: '#878c9e',
+      icon: 'img/shuziweiba.png',
+    }, {
+      name: 'V2EX',
+      link: 'https://www.v2ex.com/',
+      box_shadow: '#878c9e',
+      icon: 'img/V2EX.png',
+    }, {
+      name: 'Notion',
+      link: 'https://www.notion.so/',
+      box_shadow: '#6c7186',
+      icon: 'img/Notion.png',
+    }, {
+      name: 'Github',
+      link: 'https://github.com/',
+      box_shadow: '#4a5065',
+      icon: 'img/Github.svg',
+    }, {
       name: 'XDA',
       link: 'https://www.xda-developers.com/',
       box_shadow: '#AC6E2F',
       icon: 'img/xda.png',
     }, {
-      name: '数字尾巴',
-      link: 'https://www.dgtle.com/',
-      box_shadow: '#62677b',
-      icon: 'img/shuziweiba.png',
-    }, {
-      name: 'unsplash',
-      link: 'https://unsplash.com/',
-      box_shadow: '#2C2C2C',
-      icon: 'img/unsplash.png',
+      name: '小众软件',
+      link: 'https://www.appinn.com/',
+      box_shadow: '#3279ea',
+      icon: 'img/xiaozhong.png',
     }, {
       name: '疫情跟踪',
       link: 'https://ncov.dxy.cn/ncovh5/view/pneumonia',
@@ -116,6 +136,21 @@ $(function() {
       link: 'http://one.jift.edu.cn/home',
       box_shadow: '#00A0E9',
       icon: 'img/true.png',
+    }, {
+      name: 'Via插件',
+      link: 'http://via-app.cn/',
+      box_shadow: '#FA7199',
+      icon: 'img/via.png',
+    }, {
+      name: '政务平台',
+      link: 'http://gjzwfw.www.gov.cn',
+      box_shadow: '#dbcb52',
+      icon: 'img/log.png',
+    }, {
+      name: '公网安备',
+      link: 'https://www.beian.gov.cn/apply/selectBeiAn?id=913955',
+      box_shadow: '#dbcb52',
+      icon: 'img/BOSS.png',
     }]
   }
   for (var i = 0; i < bookmark.data.length; i++) {
@@ -372,16 +407,16 @@ function check() {
 var d = new Date();
 var time = d.getHours();
 if (time < 24) {
-  document.getElementById("title").innerHTML = "宝站 | Good evening";
+  document.getElementById("title").innerHTML = "宝站｜忙碌完记得休息~";
 }
 if (time < 18) {
-  document.getElementById("title").innerHTML = "宝站 | Good afternoon";
+  document.getElementById("title").innerHTML = "宝站｜加油！打工人~";
 }
 if (time < 12) {
-  document.getElementById("title").innerHTML = "宝站 | Good morning";
+  document.getElementById("title").innerHTML = "宝站｜又是元气满满的一天~";
 }
 if (time < 5) {
-  document.getElementById("title").innerHTML = "宝站 | Stay up late again";
+  document.getElementById("title").innerHTML = "宝站｜早睡早起身体好！";
 }
 //title问候语结束
 
