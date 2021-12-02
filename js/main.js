@@ -147,7 +147,7 @@ $(function() {
       box_shadow: '#dbcb52',
       icon: 'img/log.png',
     }, {
-      name: '私有云盘',
+      name: '私有云',
       link: 'https://ww.a-b.cc/',
       box_shadow: '#dbcb52',
       icon: 'img/Onedrive.png',
