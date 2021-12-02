@@ -57,51 +57,45 @@ function rgb2hex(rgb) {
 $(function() {
   var bookmark = {
     data: [{
-      name: '个人主页',
-      link: 'https://a-b.cc',
-      box_shadow: '#16bed1',
-      icon: 'img/BOCO.png',
-    }, {
-      name: '私有云',
-      link: 'https://pan.bao.cat',
-      box_shadow: '#127ad3',
-      icon: 'img/Onedrive.png',
+      name: '素材宝库',
+      link: 'http://one.jift.edu.cn/home',
+      box_shadow: '#0071bc',
+      icon: 'img/？.webp',
     }, {
       name: '知乎',
       link: 'https://www.zhihu.com/',
       box_shadow: '#0078D8',
       icon: 'img/zhihulogo.png',
     }, {
-      name: '今日热榜',
-      link: 'https://tophub.today/',
-      box_shadow: '#F2584A',
-      icon: 'img/headline.png',
+      name: '豆瓣',
+      link: 'https://www.douban.com/',
+      box_shadow: '#37bf4c',
+      icon: 'img/douban.png',
     }, {
-      name: '少数派',
-      link: 'https://sspai.com/',
-      box_shadow: '#D7191A',
-      icon: 'img/sspai.png',
-    }, {
-
       name: '酷安',
       link: 'https://www.coolapk.com',
       box_shadow: '#11B063',
       icon: 'img/coolapk.png',
     }, {
-      name: '豆瓣',
-      link: 'https://www.douban.com/',
-      box_shadow: '#37bf4c',
-      icon: 'img/douban.png',
+      name: '今日热榜',
+      link: 'https://tophub.today/',
+      box_shadow: '#F2584A',
+      icon: 'img/headline.png',
     }, {
       name: 'it之家',
       link: 'https://www.ithome.com/',
       box_shadow: '#d22222',
       icon: 'img/ithome.png',
     }, {
-      name: 'Via插件',
-      link: 'http://via-app.cn',
-      box_shadow: '#FA7199',
-      icon: 'img/via.png',
+      name: '少数派',
+      link: 'https://sspai.com/',
+      box_shadow: '#D7191A',
+      icon: 'img/sspai.png',
+    }, {
+      name: 'XDA',
+      link: 'https://www.xda-developers.com/',
+      box_shadow: '#AC6E2F',
+      icon: 'img/xda.png',
     }, {
       name: '数字尾巴',
       link: 'https://www.dgtle.com/',
@@ -113,30 +107,15 @@ $(function() {
       box_shadow: '#2C2C2C',
       icon: 'img/unsplash.png',
     }, {
-      name: 'XDA',
-      link: 'https://www.xda-developers.com/',
-      box_shadow: '#AC6E2F',
-      icon: 'img/xda.png',
-    }, {
       name: '疫情跟踪',
       link: 'https://ncov.dxy.cn/ncovh5/view/pneumonia',
       box_shadow: '#7C5DC7',
       icon: 'img/ding.png',
     }, {
-      name: '小众软件',
-      link: 'https://www.appinn.com/',
-      box_shadow: '#3279ea',
-      icon: 'img/xiaozhong.png',
-    }, {
-      name: '疫情辟谣',
-      link: 'https://vp.fact.qq.com/home',
+      name: '智慧门户',
+      link: 'http://one.jift.edu.cn/home',
       box_shadow: '#00A0E9',
       icon: 'img/true.png',
-    }, {
-      name: '开发日志',
-      link: 'https://git.io/JM3XL',
-      box_shadow: '#F18033',
-      icon: 'img/log.png',
     }]
   }
   for (var i = 0; i < bookmark.data.length; i++) {
