@@ -58,7 +58,7 @@ $(function() {
   var bookmark = {
     data: [{
       name: '素材宝库',
-      link: 'https://w.a-b.cc/',
+      link: 'https://fxhub.cn',
       box_shadow: '#0071bc',
       icon: 'img/？.webp',
     }, {
@@ -144,13 +144,13 @@ $(function() {
     }, {
       name: '政务平台',
       link: 'http://gjzwfw.www.gov.cn/',
-      box_shadow: '#dbcb52',
+      box_shadow: '#f18033',
       icon: 'img/log.png',
     }, {
-      name: '私有云',
-      link: 'https://ww.a-b.cc/',
+      name: '公网安备',
+      link: 'https://www.beian.gov.cn/apply/selectBeiAn?id=913955',
       box_shadow: '#dbcb52',
-      icon: 'img/Onedrive.png',
+      icon: 'img/BOSS.png',
     }]
   }
   for (var i = 0; i < bookmark.data.length; i++) {

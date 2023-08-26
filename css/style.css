@@ -34,6 +34,10 @@ ul {
 	.inputDiv {
 		margin: 30px 20px 0;
 	}
+	
+	#sakana-widget {
+	    display: none;
+	}
 }
 
 @media (min-width: 768px) { /*大屏*/

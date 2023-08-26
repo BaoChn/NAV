@@ -17,12 +17,20 @@
     var now = new Date().getTime();
     document.write('<link href="css/style.css?v=' + now + '" rel="stylesheet" type="text/css"/>');
 	</script>
-<link rel="stylesheet" href="css/magic-mouse.css" />
-<!-- 友盟统计 -->
-<div style="display:none">
-<script type="text/javascript" src="https://s9.cnzz.com/z_stat.php?id=1280485313&web_id=1280485313"></script>
-</script>
-</div>
+  <link rel="stylesheet" href="css/magic-mouse.css" />
+<!--<script src="https://cdn.bootcdn.net/ajax/libs/sweetalert/2.1.2/sweetalert.min.js"></script>-->
+<!--<script>-->
+<!--swal({-->
+<!--    title: "公告",-->
+<!--    text: "新版导航站即将上线！",-->
+<!--    button:"即刻尝鲜",-->
+<!--    icon:"info"-->
+<!--    }).-->
+<!--    then(function(){-->
+<!--        window.location.href='https://nav.a-b.cc/'-->
+<!--    }-->
+<!--);-->
+<!--</script>-->
 </head>
 <body>
   <nav id="menu" class="menu">
@@ -117,7 +125,7 @@
     <a href="#"><li class="sidenav-btn" id="night">夜间模式</li></a>
     <a href="#"><li class="sidenav-btn" id="bg">干掉/显示壁纸</li></a>
    </ul>
-   <p style="width:100%;text-align:center;margin:0 auto;font-size:14px;color:lightgray;">2022 © <a style="color: lightgray;" href="https://a-b.cc">BaoChn</a><br>ALL RIGHTS RESERVED.</p>
+   <p style="width:100%;text-align:center;margin:0 auto;font-size:14px;color:lightgray;">2022 © <a style="color: lightgray;" href="https://a-b.cc">BaoChn</a><br>ALL RIGHTS RESERVED.<br><img src="https://i.a-b.cc/0/zkW.webp" style="width:16px;"> <a href="http://www.beian.gov.cn/apply/selectBeiAn?id=913955" target="_blank" rel="external nofollow" alt="皖公网安备 34150202000313">皖公网安备 34150202000313</a></p>
   </nav>
 
   <!-- 主页面 -->
@@ -168,11 +176,15 @@
     <!-- 临时公告 -->
     <div id="alert" class="alert alert-info alert-dismissible" role="alert">
       <button type="button" id="closealert" class="close" data-dismiss="alert" aria-label="Close"><span aria-hidden="true">&times;</span></button>
-      👋这是一个纯粹的<strong>导航页</strong>，欢迎围观站长的<a href="https://gdp.one/" class="alert-link" target="_blank"><strong>毕设进度条</strong></a>！
+      👋这是一个纯粹的<strong>导航页</strong>，现全新推出 <a href="https://nav.a-b.cc/" class="alert-link" target="_blank" title="BaoLink"><strong>宝站2.0</strong></a> ，欢迎前来体验~
+      <!--<a href="https://br.ooo/0/" class="alert-link" target="_blank" title="爱摸鱼的摸鱼人在摸鱼时为摸鱼仔打摸的摸鱼神器"><strong>不如摸鱼</strong></a>或是 <a href="https://em.ooo" class="alert-link" target="_blank" title=""><strong>emo0O</strong></a> 一下吧！-->
     </div>
 
-<div id="footer">
-    <center><a href="https://beian.miit.gov.cn" target="_blank" rel="external nofollow" title="当前正在备案进程中"><img src="https://cdn.jsdelivr.net/gh/BaoChn/File/img/ICP-404.svg"></a></center>
+<div id="footer" style="bottom: 1.5em; position: absolute; left: 0;right: 0;">
+    <a href="https://beian.miit.gov.cn" target="_blank" rel="external nofollow" title="已在工信部备案：皖ICP备-2021016969号" style="padding: .2em .5em; border: 1px solid #07C160; border-radius: 15px; color: #07C160; font-size: .75em;">
+        <!--<img src="./assets/ICP-2021016969.svg">-->
+        皖ICP备2021016969号-1</a><br>
+    <a href="http://www.beian.gov.cn/portal/registerSystemInfo?recordcode=34150202000313" target="_blank" rel="external nofollow" alt="皖公网安备 34150202000313"><img src="./assets/Police_ID.svg" style=""></a>
 </div>
 
    </div>
@@ -215,8 +227,11 @@ options = {
 }; 
  magicMouse(options);
 </script>
-</body>
+<div id="sakana-widget" style="position: fixed; right: ; bottom: 24px; z-index: 1"></div> 
+<script> function initSakanaWidget() { new SakanaWidget().mount('#sakana-widget'); } </script>
+<script async="" onload="initSakanaWidget()" src="https://cdn.jsdelivr.net/npm/sakana-widget@2.2.2/lib/sakana.min.js"></script>
 <script type="text/javascript">
   document.write('<script src="js/main.js?v=' + now + '"><\/script\>');
 </script>
+</body>
 </html>
